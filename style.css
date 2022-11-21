@@ -1,0 +1,102 @@
+body {
+    font-size: 16px;
+}
+
+
+:root {
+    --green: #2E6C32;
+    --lime: #61D368;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter-Medium.woff2);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter-Regular.woff2);
+    font-weight: normal;
+}
+
+p {
+    font-size: 16px;
+    line-height: 12%;
+}
+
+.spacer-50 {
+    height: 50px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Inter", Helvetica, sans-serif;
+    font-weight: bold; 
+}
+
+
+p{
+    font-family: "Inter", Helvetica, sans-serif;
+    font-weight: normal; 
+    color: black;
+    line-height: 120%;
+}
+
+p.lead {
+    font-size: 2em;
+}
+
+.colorbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1 / 1;
+}
+
+.colorbox code {
+    color: #000000;
+    text-transform: uppercase;
+    margin:0;
+}
+
+.colorbox-green {
+    background: var(--green);
+}
+
+.colorbox-lime {
+    background: var(--lime);
+}
+
+.colorbox-black {
+    background: #000000;
+}
+
+.colorbox-lightgrey {
+    background: #F1F1F1;
+}
+
+#custom-cards h2 {
+    color: white;
+}
+
+.btn {
+    border-radius: 0px;
+}
+
+.btn-primary {
+    background: var(--lime);
+    border: 0;
+}
+
+.color-lime {
+    color: var(--lime);
+}
+
+.m-bot-0 {
+    margin-bottom: 0;
+}
