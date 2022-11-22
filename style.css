@@ -100,3 +100,13 @@ p.lead {
 .m-bot-0 {
     margin-bottom: 0;
 }
+
+
+.btn-outline-primary {
+    color: var(--green);
+    border-color: var(--green);
+}
+.btn-outline-primary:hover,
+.btn-primary:hover {
+    background: var(--green);
+}
